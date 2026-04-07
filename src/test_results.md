@@ -44,36 +44,37 @@ Bạn: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư
 TravelBuddy đang suy nghĩ...
 [Gọi tool: search_flights]({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
 [Gọi tool: search_hotels]({'city': 'Phú Quốc', 'max_price_per_night': 2500000})
+[Gọi tool: calculate_budget]({'total_budget': 5000000, 'expenses': 've_bay:1000000,khach_san:400000'})
 [Trả lời trực tiếp]
 
-TravelBuddy: Dưới đây là gợi ý cho chuyến đi từ Hà Nội đến Phú Quốc 2 đêm với ngân sách 5 triệu đồng:
+TravelBuddy: Chuyến đi Phú Quốc của bạn sẽ như thế này:
 
-**Chuyến bay:**  
+**Chuyến bay:**
 
-1. **Vietnam Airlines**: 07:00–09:15 | 2.100.000đ (hạng economy)
-2. **VietJet Air**: 10:00–12:15 | 1.350.000đ (hạng economy)
-3. **VietJet Air**: 16:00–18:15 | 1.000.000đ (hạng economy)
+1. VietJet Air | 16:00 - 18:15 | 1.000.000đ | hạng economy
+2. Hoặc bạn có thể chọn chuyến bay vào 10:00 - 12:15 với giá 1.350.000đ.
 
-**Khách sạn:**  
+**Khách sạn:**
 
-1. **9Station Hostel**: 2 sao | 200.000đ/đêm | Dương Đông | rating 4.5
-2. **Sol by Meliá**: 4 sao | 1.500.000đ/đêm | Bãi Trường | rating 4.2
-3. **Lahana Resort**: 3 sao | 800.000đ/đêm | Dương Đông | rating 4.0
+1. **9Station Hostel** | 2 sao | 200.000đ/đêm | Dương Đông | rating 4.5
+2. **Lahana Resort** | 3 sao | 800.000đ/đêm | Dương Đông | rating 4.0
+3. **Sol by Meliá** | 4 sao | 1.500.000đ/đêm | Bãi Trường | rating 4.2
 
-**Tổng chi phí ước tính:**
+Giả sử bạn ở 2 đêm tại **9Station Hostel**:
 
-- Nếu chọn chuyến bay giá rẻ nhất (VietJet Air 1.000.000đ) và ở lại 9Station Hostel (200.000đ/đêm):
-  - Vé máy bay: 1.000.000đ
-  - Khách sạn: 200.000đ x 2 đêm = 400.000đ
-  - **Tổng cộng: 1.400.000đ**
-- Nếu chọn chuyến bay của Vietnam Airlines (2.100.000đ) và ở Sol by Meliá (1.500.000đ/đêm):
-  - Vé máy bay: 2.100.000đ
-  - Khách sạn: 1.500.000đ x 2 đêm = 3.000.000đ
-  - **Tổng cộng: 5.100.000đ** (vượt ngân sách)
+- Chi phí vé máy bay: 1.000.000đ
+- Chi phí khách sạn (2 đêm): 400.000đ
 
-Vậy, nếu bạn muốn tiết kiệm, phương án bay VietJet và ở hostel là hợp lý nhất!
+**Tổng chi phí ước tính: 1.400.000đ**
 
-**Gợi ý thêm:** Hãy cân nhắc đặt phòng và vé máy bay sớm để đảm bảo không hết chỗ nhé!
+**Số tiền còn lại trong ngân sách: 3.600.000đ.**
+
+**Gợi ý thêm:**
+
+- Sử dụng số tiền còn lại để tham gia các tour, ăn uống, hoặc trải nghiệm các hoạt động tại Phú Quốc (như lặn biển, tham quan các hòn đảo xung quanh).
+- Bạn có thể tham khảo các nhà hàng và quán ăn địa phương để thưởng thức món hải sản tươi ngon!
+
+Nếu bạn có thêm câu hỏi hoặc cần giúp đỡ gì khác, cứ hỏi nhé!
 
 ============================================================  
 **Testcase 4 - Missing Info / Clarification**  
